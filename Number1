@@ -1,0 +1,12 @@
+double n = 10;
+double l = Math.PI / n; 
+double S = 0;
+double x = 0; 
+    for (double i = 0; i <= n; i++)
+            {
+
+                x = i * l; 
+                S = S + l * Math.Sin(x);
+
+            }
+Console.WriteLine(S);
